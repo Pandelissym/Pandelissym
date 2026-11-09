@@ -1,29 +1,26 @@
 <h2 align="center">Hi, I'm Pandelis 👋</h2>
 
 <p align="center">
-  <b>AI engineer in the making, backend cloud engineer by trade.</b><br/>
-  MSc Artificial Intelligence @ UPC Barcelona · BSc Computer Science (cum laude) @ TU Delft<br/>
-  2+ years shipping serverless AWS platforms in production
+  MSc Artificial Intelligence @ UPC Barcelona · Software Engineer @ Dawn Technology (embedded at Pathé)  </br> </br>
+  3+ years software engineer <br/>
+  BSc Computer Science (cum laude) @ TU Delft </br>
 </p>
 
 <p align="center">
   <a href="https://linkedin.com/in/psymeonidis"><img src="https://img.shields.io/badge/LinkedIn-psymeonidis-0A66C2?style=flat-square" alt="LinkedIn"/></a>
   <a href="mailto:pandelissym@outlook.com"><img src="https://img.shields.io/badge/Email-pandelissym%40outlook.com-0078D4?style=flat-square" alt="Email"/></a>
-  <img src="https://img.shields.io/badge/Based_in-Barcelona-C60B1E?style=flat-square" alt="Barcelona"/>
-  <img src="https://img.shields.io/badge/Open_to-AI_%26_Software_Engineer_roles-2EA44F?style=flat-square" alt="Open to work"/>
+  <img src="https://img.shields.io/badge/Based_in-Rotterdam-C60B1E?style=flat-square" alt="Rotterdam"/>
 </p>
 
 ---
-
-I like the parts of AI systems that decide whether they actually work: the **data pipelines** that feed them, the **evaluation harnesses** that keep them honest, and the **infrastructure** that gets them into production.
 
 ```python
 pandelis = {
     "studying":  "MSc Artificial Intelligence @ UPC Barcelona",
     "working":   "Backend Cloud Engineer @ Dawn Technology (Pathe VOD platform)",
     "building":  "patchwork: an LLM agent that fixes real GitHub issues, or knows when to escalate",
-    "into":      ["LLM agents", "evaluation", "NLP", "recommender systems", "distributed systems"],
-    "speaks":    ["Greek", "English", "Dutch", "German"],
+    "into":      ["Software Engineering", "Distributed Systems", "Cloud", "LLM agents"],
+    "speaks":    ["Greek", "English", "Dutch"],
 }
 ```
 
@@ -44,7 +41,7 @@ pandelis = {
 
 ## 💼 Experience
 
-- **Dawn Technology → Pathe** <sub>(2024 – now)</sub>: built the audit-logging platform (Kinesis Firehose → Parquet/Glue → Athena), shipped the landing page across five layers from CMS to GraphQL, and turned the CMS into a CI-governed monorepo with per-PR environments.
+- **Dawn Technology → Pathe** <sub>(2024 – now)</sub>: backend cloud engineer on a large Dutch video-on-demand platform: serverless AWS (Lambda, Step Functions, DynamoDB, CDK), event pipelines and CI/CD.
 - **Kryha** <sub>(2022 – 2024)</sub>: Node.js microservices, Kafka, Auth0 and smart contracts for blockchain products.
 - **Parkeagle** <sub>(2020 – 2021)</sub>: video-based vehicle detection and tracking in Python.
 
@@ -65,7 +62,6 @@ pandelis = {
 ![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
 
 **Cloud & DevOps**<br/>
 ![AWS](https://img.shields.io/badge/AWS-Lambda_·_Step_Functions_·_DynamoDB_·_CDK-FF9900?style=flat-square)
