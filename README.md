@@ -18,7 +18,10 @@
 pandelis = {
     "studying":  "MSc Artificial Intelligence @ UPC Barcelona",
     "working":   "Backend Cloud Engineer @ Dawn Technology (Pathe VOD platform)",
-    "building":  "patchwork: an LLM agent that fixes real GitHub issues, or knows when to escalate",
+    "building":  [
+        "patchwork: an LLM agent that fixes real GitHub issues, or knows when to escalate",
+        "load-balancing: an HTTP load balancer from scratch on node:http",
+    ],
     "into":      ["Software Engineering", "Distributed Systems", "Cloud", "LLM agents"],
     "speaks":    ["Greek", "English", "Dutch"],
 }
@@ -29,6 +32,7 @@ pandelis = {
 | | Project | What it is |
 |---|---|---|
 | 🛠️ | **patchwork**<br/><sub>open-sourcing soon</sub> | An agent that localises and fixes bugs in real Python repos, or escalates when it shouldn't try. Ships with a contamination-safe benchmark of 111 post-2024 GitHub issues, a BM25 baseline, and JSONL traces of every token and dollar spent.<br/><sub>`Python` `LLMs` `uv` `pytest` `GitHub Actions`</sub> |
+| ⚖️ | **load-balancing**<br/><sub>in progress</sub> | An HTTP load balancer built from scratch on `node:http`, with no proxy libraries. It has pluggable strategies (round robin, nginx's smooth weighted round robin, least connections, power of two choices), active health probes with rise/fall thresholds and jitter, passive ejection after repeated failures, and schema-validated config. Integration tests run over real sockets, with no mocks.<br/><sub>`TypeScript` `Node.js` `Vitest` `Zod`</sub> |
 | 🗺️ | [**Barcelona POI recommender simulation**](https://github.com/Pandelissym/recommender-system-evaluator) | An agent-based simulation of 3,000 tourists that compares popularity, interest-based and sustainability-aware recommenders on accuracy *and* overcrowding. The sustainability-aware recommender cut overcrowding events from 99 to 11 compared with the interest-based one.<br/><sub>`Python` `Mesa` `NumPy` `Flask` `React` `Leaflet`</sub> |
 | 📦 | [**mini-pnpm**](https://github.com/Pandelissym/mini-pnpm) | pnpm rebuilt from scratch: a content-addressable global store, a hard-linked virtual store, incremental lockfile resolution that only touches the changed subgraph, and tarball integrity verification.<br/><sub>`TypeScript` `Node.js` `npm registry API`</sub> |
 | 🧠 | [**WhatTheLog**](https://github.com/Pandelissym/WhatTheLog/tree/reinforcement-learning) | TU Delft research project: inferring state machines of the XRP Ledger consensus protocol from its logs. I built the Q-learning approach to state merging. [Read the paper →](https://resolver.tudelft.nl/uuid:a2a3328e-ebbc-4232-a07c-6fcab391a5ba)<br/><sub>`Python` `Reinforcement learning` `Gym`</sub> |
